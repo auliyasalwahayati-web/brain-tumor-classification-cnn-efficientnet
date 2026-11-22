@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Dataset & archive besar
+data/
+Brain Tumor MRI/
+Brain Tumor MRI.zip
+
+# Bobot model (.pth) opsional jika terlalu besar untuk GitHub
+outputs/models/*.pth
+
+# OS & editor
+.DS_Store
+Thumbs.db
